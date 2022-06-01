@@ -26,13 +26,19 @@ const displayImage = function (randomImage) {
 };
 
 
-const getData = async function () {
-    const res = await fetch(
-      "https://quote-garden.herokuapp.com/api/v3/quotes?limit=1"
-    );
-    const data = await res.json();
-    console.log(data);
-  };
+// const getData = async function () {
+//     const res = await fetch(
+//       "https://quote-garden.herokuapp.com/api/v3/quotes?limit=1"
+//     );
+//     const data = await res.json();
+//     console.log(data);
+//   };
+
+//   const selectRandomQuote = function () {
+//     const randomImage = images[randomIndex];
+//     // console.log(randomImage);
+//     displayImage(randomImage);
+//   };
 
   
 
